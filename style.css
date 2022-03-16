@@ -1,0 +1,343 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #eee;
+}
+
+section{
+    margin: 0;
+    text-align: justify;
+    padding: 5%;
+    line-height: 2rem;
+}
+
+.rounded-circle{
+    object-fit: cover;
+}
+
+/*landingpage*/
+#landingpage{
+    background-image: linear-gradient(to bottom, rgba(66, 83, 92, 0.8) 0%, rgba(66, 83, 92, 0.8) 100%), url('assets/imgs/coding1.jpg');
+    background-size: cover;
+    height: 480px;
+}
+
+#landingpage h1{
+    color: #eee;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10%;
+    line-height:3em;
+}
+
+#landingpage p{
+    display: block;
+    color:#eee;
+    font-size:18px;
+}
+
+#landingpage .btn-primary{
+    padding: 12px;
+    font-size:20px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 14px;
+    width:30%;
+    background-color: #1d88b3;
+    border-style: none;
+}
+
+/*about*/
+#about{
+    background-color: rgb(236, 236, 236);
+}
+#about .btn-light{
+    padding: 12px;
+    font-size:20px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 14px;
+    width:30%;
+    background-color: #1d88b3;
+    color:#eee;
+    border-style: none;
+}
+
+/*testi*/
+#testimoni{
+    background-color: #98c6d6;
+}
+
+/*card*/
+#testicard{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+#carouselExampleControls .carousel-indicators{
+    margin-bottom: -25px;
+}
+
+/*newletter*/
+#newletter{
+    background-color: rgb(236, 236, 236);
+}
+#newletter .btn-light{
+    padding: 12px;
+    font-size:20px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 14px;
+    width:30%;
+    background-color: #1d88b3;
+    color:#eee;
+    border-style: none;
+    margin-top: 30px;
+}
+
+/*navbar*/
+.navbar-brand{
+    text-transform: uppercase;
+    font-variant: small-caps;
+    font-weight: 800;
+}
+
+#nav-bar-center a{
+    color: #000;
+    font-weight: 300;
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+#footer-web {
+    background-color: #fff;
+    text-align: center;
+    color:#000;
+}
+
+@media screen and (min-width: 235px) and (max-width: 278px){
+    .rounded-circle{
+        object-fit: cover;
+    }
+    /*landingpage*/
+    #landingpage{
+        max-width: 100%;
+        height: auto;
+        padding:25px;
+    }
+
+    #landingpage h1{
+        font-size: 13.5px;
+        display: block;
+        margin-top: 40%;
+    }
+
+    #landingpage p{
+        font-size: 10px;
+    }
+
+    #landingpage .btn-primary{
+        font-size:12px;
+        margin-top:-20px;
+        padding:6px;
+        width:100%;
+    }
+
+    /*about*/
+    #about .btn-light{
+        font-size:12px;
+        margin-top:-20px;
+        padding:6px;
+        width:100%;
+    }
+
+    #about h2{
+        font-size: 13.5px;
+        padding: 12px;
+    }
+
+    #about p{
+        font-size: 10px;
+    }
+
+    /*testi*/
+    #testimoni h2{
+        font-size: 13.5px;
+        padding: 14px;
+    }
+
+    /*card*/
+    #testicard{
+        margin-top: -40px;
+        margin-bottom: 50px;
+    }
+
+    #testicard img{
+        max-width: 80px;
+        max-height: 80px;
+        padding: 10px;
+    }
+
+    #testicard h5{
+        font-size:12px;
+        padding: 2px;
+    }
+
+    #testicard span{
+        font-size:12px;
+    }
+
+    #testicard p{
+        font-size: 10px;
+    }
+
+    #carouselExampleControls .carousel-indicators{
+        margin-bottom: 20px;
+    }
+
+    /*newletter*/
+    #newletter{
+        padding: 30px;
+    }
+
+    #newletter .btn-light{
+        font-size:12px;
+        margin-top:30px;
+        padding:6px;
+        width:100%;
+    }
+
+    #newletter h2{
+        font-size: 13.5px;
+        padding: 12px;
+    }
+
+    #newletter p{
+        font-size: 10px;
+    }
+
+    #newletter input[type="email"]{
+        font-size: 12px;
+        width: 100%;
+        height: 20px;
+        padding: 15px;
+        margin-top: -20px;
+    }
+
+    /*navbar*/
+    #brand{
+        font-size:15px;
+    }
+    #nav-bar-center a{
+        text-align: center;
+        padding: 4.5px;
+        font-size:14px;
+    }
+    #footer-web{
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width: 278px) and (max-width: 992px){
+    #landingpage h1{
+        font-size: 17px;
+    }
+    
+    #landingpage p{
+        font-size: 13.5px;
+    }
+
+    #landingpage .btn-primary{
+        font-size:14px;
+        margin-top:-20px;
+        padding:8px;
+        width:100%;
+    }
+    #about h2{
+        font-size: 17px;
+        padding: 10px;
+    }
+    #about p{
+        font-size: 13.5px;
+    }
+    #about .btn-light{
+        font-size:14px;
+        margin-top:-20px;
+        padding:8px;
+        width:100%;
+    }
+
+    /*testimoni*/
+    #testimoni h2{
+        font-size: 17px;
+        padding: 14px;
+    }
+    
+    /*card*/
+    #testicard{
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+    #testicard img{
+        padding: 10px;
+        object-fit: cover;
+    }
+    #testicard h5{
+        font-size: 15px;
+        padding: 5px;;
+    }
+    #testicard span{
+        font-size: 15px;
+        padding: 5px;
+    }
+    #testicard p{
+        font-size: 12.5px;
+    }
+
+    #carouselExampleControls .carousel-indicators{
+        margin-bottom: 12px;
+    }
+
+    /*newletter*/
+    #newletter h2{
+        font-size: 17px;
+        padding: 10px;
+    }
+    #newletter p{
+        font-size: 13.5px;
+    }
+    #newletter input[type="email"]{
+        font-size: 13.5px;
+        height: 25px;
+        padding: 17px;
+        margin-top: -15px;
+    }
+    #newletter .btn-light{
+        font-size:14px;
+        margin-top:20px;
+        padding:8px;
+        width:100%;
+    }
+
+    #nav-bar-center a{
+        text-align: center;
+        padding: 7px;
+    }
+    #footer-web{
+        font-size: 13.5px;
+    }
+}
