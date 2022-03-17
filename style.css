@@ -52,6 +52,10 @@ section{
     border-style: none;
 }
 
+#landingpage .btn-primary:hover{
+    background-color: #0b3444;
+}
+
 /*about*/
 #about{
     background-color: rgb(236, 236, 236);
@@ -67,6 +71,10 @@ section{
     background-color: #1d88b3;
     color:#eee;
     border-style: none;
+}
+
+#about .btn-light:hover{
+    background-color: #0b3444;
 }
 
 /*testi*/
@@ -106,6 +114,10 @@ section{
     color:#eee;
     border-style: none;
     margin-top: 30px;
+}
+
+#newletter .btn-light:hover{
+    background-color: #0b3444;
 }
 
 /*navbar*/
